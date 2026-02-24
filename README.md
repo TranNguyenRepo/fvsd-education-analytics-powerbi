@@ -63,8 +63,7 @@ A critical modeling distinction was identified:
 
 Distinct student counts across semesters  ≠ Average distinct student count per semester
 
-        Correct Forecast Formula:
-        (Sem1 + Sem2 + Sem3) / 3
+        Correct Forecast Formula:(Sem1 + Sem2 + Sem3) / 3
 
         Incorrect logic (DistinctAcrossAll / 3) would underestimate staffing demand.
 

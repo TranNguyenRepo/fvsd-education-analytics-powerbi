@@ -1,0 +1,7 @@
+Project Requirements
+
+1. Company account email
+2. Power BI account associated with the company email
+3. Basic DAX knowledge
+4. Basic Power Query (M language) knowledge
+5. PowerBI desktop installed
