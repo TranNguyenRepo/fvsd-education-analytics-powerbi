@@ -2,6 +2,7 @@
 # Education Performance & Resource Planning Dashboard
 ## Sources:
 ![alt text](image.png)
+
 https://zoomcharts.com/en/microsoft-power-bi-custom-visuals/challenges/fp20-analytics-january-2024
 ## Project Overview
 This Power BI dashboard was developed to support academic monitoring, intervention staffing allocation, and testing cost forecasting within an education environment.
@@ -60,14 +61,12 @@ Scatter analysis confirms cost scales proportionally with enrollment volume.
 
 A critical modeling distinction was identified:
 
-Distinct student counts across semesters  
-≠  
-Average distinct student count per semester
+Distinct student counts across semesters  ≠ Average distinct student count per semester
 
-Correct Forecast Formula:
-(Sem1 + Sem2 + Sem3) / 3
+        Correct Forecast Formula:
+        (Sem1 + Sem2 + Sem3) / 3
 
-Incorrect logic (DistinctAcrossAll / 3) would underestimate staffing demand.
+        Incorrect logic (DistinctAcrossAll / 3) would underestimate staffing demand.
 
 ### Forecasting Models Evaluated
 1. 3-Semester Rolling Average (stable smoothing approach)
